@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430A19E12174E0E7003108F6 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 430A19E02174E0E7003108F6 /* image.png */; };
+		430A19E32174E1FD003108F6 /* mask.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 430A19E22174E1FD003108F6 /* mask.jpg */; };
 		43B1FB10215CE21400C30150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B1FB0F215CE21400C30150 /* AppDelegate.swift */; };
 		43B1FB12215CE21400C30150 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B1FB11215CE21400C30150 /* ViewController.swift */; };
 		43B1FB15215CE21400C30150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B1FB13215CE21400C30150 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		430A19E02174E0E7003108F6 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		430A19E22174E1FD003108F6 /* mask.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mask.jpg; sourceTree = "<group>"; };
 		43B1FB0C215CE21400C30150 /* Mask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B1FB0F215CE21400C30150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43B1FB11215CE21400C30150 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				43B1FB0F215CE21400C30150 /* AppDelegate.swift */,
+				430A19E22174E1FD003108F6 /* mask.jpg */,
+				430A19E02174E0E7003108F6 /* image.png */,
 				43B1FB11215CE21400C30150 /* ViewController.swift */,
 				43B1FB13215CE21400C30150 /* Main.storyboard */,
 				43B1FB16215CE21600C30150 /* Assets.xcassets */,
@@ -123,8 +129,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				43B1FB1A215CE21600C30150 /* LaunchScreen.storyboard in Resources */,
+				430A19E32174E1FD003108F6 /* mask.jpg in Resources */,
 				43B1FB17215CE21600C30150 /* Assets.xcassets in Resources */,
 				43B1FB15215CE21400C30150 /* Main.storyboard in Resources */,
+				430A19E12174E0E7003108F6 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5293H5XAC;
 				INFOPLIST_FILE = Mask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5293H5XAC;
 				INFOPLIST_FILE = Mask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
